@@ -1,0 +1,21 @@
+{
+  "name": "jsproxy-serverless",
+  "version": "1.0.0",
+  "description": "jsproxy serverless backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "deploy": "now --target production"
+  },
+  "author": "dixeran",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "global-tunnel-ng": "^2.7.1"
+  }
+}
